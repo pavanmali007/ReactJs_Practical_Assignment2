@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "Harry Potter",
+        "city": "London",
+        "course": "MSc(ICT)",
+        "roll_number": 28
+    },
+    {
+        "id": 2,
+        "name": "Don Quixote",
+        "city": "Madrid",
+        "course": "MSc(ICT)",
+        "roll_number": 31
+    },
+    {
+        "id": 3,
+        "name": "Joan of Arc",
+        "city": "Paris",
+        "course": "MSc(ICT)",
+        "roll_number": 76
+    },
+    {
+        "id": 4,
+        "name": "Rosa Park",
+        "city": "Alabama",
+        "course": "MSc(ICT)",
+        "roll_number": 75
+    },
+    {
+        "id": 5,
+        "name": "Patrick Bateman",
+        "city": "Mumbai",
+        "course": "MSc(ICT)",
+        "roll_number": 55
+    },
+    {
+        "id": 6,
+        "name": "thomas shelby",
+        "city": "Surat",
+        "course": "MSc(ICT)",
+        "roll_number": 18
+    },
+    {
+        "id": 7,
+        "name": "peter parker",
+        "city": "New York",
+        "course": "MSc(ICT)",
+        "roll_number": 54
+    }
+]

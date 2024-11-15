@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: grey;
+    background-image: url("images/cloudyWeather2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+.outerContainer{
+    min-width: 500px;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.subContainer{
+    width: auto;
+    max-height: 340px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.heading{
+    min-width: 300px;
+    height: auto;
+    text-align: center;
+    margin: 20px 0px;
+    padding: 10px;
+    color: #eee;
+    font-size: 52px;
+    border-radius: 10px;
+}
+#weatherForm {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 30px;
+    border-radius: 10px;
+    padding: 7px;
+}
+#weatherForm input{
+    width: 180px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 0 12px;
+    background-color: transparent;
+    color: #eee;
+    border-bottom: 1px solid #eee;
+    margin: 0 10px;
+}
+::placeholder {
+    color: #eee;
+    opacity: 1; /* Firefox */
+}
+.btn{
+    width: auto;
+    height: atuo;
+    padding: 7px 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid #eeeeee26;
+    color: #eee;
+    background-color: #a9967d45;
+    box-shadow: 0.5px 0.5px 2px 0.5px #eeeeee80;
+    cursor: pointer;
+}
+.initialData{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    color: #eee;
+    margin: 0 32px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 5px 0.5px #eeeeee80;
+}
+.plate{
+    border: 1px solid #eeeeee80;
+    background-color: #afafaf43;
+}
+#tempANDname{
+    width: auto;
+    height: auto;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+#temperature{
+    font-size: 48px;
+}
+#cityName{
+    font-size: 24px;
+}
+#icon{
+    width: 50px;
+}
+.dataElement{
+    width: auto;
+    height: auto;
+    padding: 5px;
+    margin: 5px 0;
+}
+#refreshBtn{
+    align-self: flex-end;
+    margin-left: 18px;
+}
+#weatherDataContainer{
+    width: 450px;
+    height: 100vh;
+    border-left: 1px solid #afafaf52;
+    background-color: #afafaf43;
+    color: #eee;
+    padding: 40px 30px;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 1px 1px 7px 3px #eeeeee80;
+}
+#rowContentHeading{
+    width: 100%;
+    height: auto;
+    padding: 18px 5px;
+    border-bottom: 1px solid #eeeeee80;
+    font-size: 18px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.wwData{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.wData{
+    height: auto;
+    width: auto;
+    padding: 2px;
+}
+.title{
+    width: auto;
+    height: auto;
+    margin-right: 40px;
+    padding: 2px;
+    text-transform: capitalize;
+}

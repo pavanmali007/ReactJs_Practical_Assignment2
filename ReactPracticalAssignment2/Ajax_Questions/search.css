@@ -1,0 +1,139 @@
+/* 243642 */
+/* 387478 */
+/* 629584 */
+/* E2F1E7 */
+
+/* 001F3F */
+/* 3A6D8C */
+/* 6A9AB0 */
+/* EAD8B1 */
+
+/* 257180 */
+/* F2E5BF */
+/* FD8B51 */
+/* CB6040 */
+
+/* 
+FFF0D1
+795757
+664343
+3B3030 
+*/
+
+/* 
+FAF7F0
+D8D2C2
+B17457
+4A4947 
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2a2222;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    width: 85%;
+    min-height: 100vh;
+    padding: 24px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #3B3030;
+    align-self: center;
+}
+
+.heading{
+    width: auto;
+    height: auto;
+    padding: 8px 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    background-color: #FFF0D1;
+    color: #3B3030;
+    margin: 0 0 50px 0;
+    box-shadow: 3px 3px 3px 3px #2a2222;
+
+}
+
+.searchPlate{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.searchPlate input{
+    width: 100%;
+    height: 36px;
+    font-size: 14px;
+    padding: 7px 15px;
+    outline: none;
+    border: none;
+    background-color: #FFF0D1;
+}
+
+
+.content{
+    min-width: 400px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: 1px solid white;
+    border-radius: 7px;
+    background-color: #79575726;
+    color: #FFF0D1;
+    box-shadow: 3px 3px 3px 3px #2a2222;
+    overflow: hidden;
+}
+
+#dataWraper{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.data-container {  
+    width: 100%; 
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+.suggestion-item {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background-color: #664343;
+    border-top-left-radius: 7px;    
+    border-top-right-radius: 7px;
+}
+
+tr{
+    border: 1px solid #629584;
+    color: #FFF0D1;
+}
+
+#fields{
+    font-weight: bold;
+}
+
+td{
+    padding: 10px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Data</title>
+    <link rel="stylesheet" href="search.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h2>API Data fetching and Searching auto Suggestions</h2>
+        </div>
+        <div class="content">
+            <div class="searchPlate">
+                <input type="search" name="searchProduct" id="search" placeholder="Search by name..." onkeyup="filterData()">
+            </div>
+            <div id="searchResult"></div>
+            <div id="dataWraper">
+                <table class="data-container">
+                    <tr id="fields">
+                        <td>Id</td>
+                        <td>Name</td>
+                        <td>City</td>
+                        <td>Course</td>
+                        <td>Roll No</td>
+                    </tr>
+                    <tbody id="apiData">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="search.js"></script>
+</body>
+</html>

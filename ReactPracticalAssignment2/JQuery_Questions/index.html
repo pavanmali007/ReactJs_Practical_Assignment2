@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Questions</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- topic heading -->
+        <div class="mainHeading">
+            <h1>jQuery Practical Questions</h1>
+        </div>
+
+        <!-- que1 -->
+        <form id="myForm" class="form containerBox">
+            <div class="heading">
+                <h2>jquery form validation</h2>
+            </div>
+            <hr>
+            <div class="content">
+                <div class="row" id="row1">
+                    <label class="labels" for="name">enter your name</label>
+                    <input class="inputs" type="text" id="name" name="name" />
+                </div>
+                <span id="error_name" class="errorSpan">name field must contain some value</span>
+                
+                <div class="row" id="row2">
+                    <label class="labels" for="name">enter your email</label>
+                    <input class="inputs" type="text" id="email" name="email" />
+                </div>
+                <span id="error_email" class="errorSpan">email field must contain some value</span>
+
+                <div class="row" id="row3">
+                    <button type="submit" class="btns" id="submitBtn">Submit</button>
+                </div>
+            </div>
+        </form>
+
+        <!-- que2 -->
+        <div class="containerBox">
+            <div class="heading">
+                <h2>Select State and City</h2>
+            </div>
+            <hr>
+            <div class="content">
+                <!-- State Dropdown -->
+                <div class="content">
+                <label class="labels margin_5px" for="state" >State </label>
+                <select class="inputs" id="state">
+                    <option value="">Select State</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                </select>
+                </div>
+                <!-- City Dropdown -->
+                <div class="content">
+                <label class="labels margin_5px" for="city">City </label>
+                <select class="inputs" id="city">
+                    <option value="">Select City</option>
+                </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- que3 -->
+        <div class="containerBox">
+            <div class="heading">
+                <h2>toggle hide div element</h2>
+            </div>
+            <div class="content">
+                <button id="toggleButton" class="btns">Toggle Div</button>
+                <div id="myDiv">This is a div!</div>
+            </div>
+        </div>
+
+        <!-- que4 -->
+        <div class="containerBox">
+            <div class="heading">
+                <h2>image slider</h2>
+            </div>
+            <div id="slider">
+                <img src="images/img1.jpg" class="active" alt="Image 1">
+                <img src="images/img2.jpg" alt="Image 2">
+                <img src="images/img3.jpg" alt="Image 3">
+                <img src="images/img4.jpg" alt="Image 4">
+                <img src="images/img5.jpg" alt="Image 5">
+            </div>
+            <div class="nav-buttons">
+                <button class="btns" id="prevBtn">Previous</button>
+                <button class="btns" id="nextBtn">Next</button>
+            </div>
+        </div>
+
+        <!-- que5 -->
+         <div class="containerBox">
+            <div class="heading">
+                <h2>Simple Form Validation</h2>
+            </div>
+            <div class="content">
+                <form id="simpleForm">
+                    <!-- Text input field -->
+                    <label for="name">Name:</label>
+                    <input class="inputs" type="text" id="simpleName" name="simpleName">
+                    <span class="simpleError" id="simpleNameError"></span><br><br>
+                </form>
+                <button class="btns" type="submit" id="simpleSubmitBtn">Submit</button>
+            </div>
+            
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
